@@ -22,4 +22,13 @@ Rules below are managed only through reviewed candidate pull requests.
 - **Scope:** repository
 - **Provenance:** bootstrap example; approved by repository maintainers
 
+### RULE-TEST-8F61D4A1E65E
+
+- **Category:** TEST
+- **State:** active
+- **Rule:** Add unit tests for every new exported function.
+- **Rationale:** applyDiscount shipped without tests and CI did not catch the gap.
+- **Scope:** path:src/
+- **Provenance:** [PR #2 comment 5915843031](https://github.com/abel-dojo/self-correcting-copilot-instructions-live-demo/pull/2#issuecomment-5915843031) by @abelberhane
+
 <!-- learned-rules:end -->
